@@ -134,9 +134,9 @@ extension TrueTimeClient {
 }
 
 let defaultLogger: LogCallback = { print($0) }
-private let defaultMaxConnections: Int = 5
-private let defaultMaxRetries: Int = 3
-private let defaultMaxServers: Int = 5
-private let defaultNumberOfSamples: Int = 4
-private let defaultPollInterval: TimeInterval = 512
-private let defaultTimeout: TimeInterval = 8
+public var defaultMaxConnections: Int = 5
+public var defaultMaxRetries: Int = 3
+public var defaultMaxServers: Int = 5
+public var defaultNumberOfSamples: Int = 4
+public var defaultPollInterval: TimeInterval = 512
+public var defaultTimeout: TimeInterval = 8
